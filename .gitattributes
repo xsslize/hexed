@@ -1,0 +1,21 @@
+# Normalize line endings: store text as LF in the repository, check out native.
+* text=auto
+
+# Source files are always LF.
+*.cpp text eol=lf
+*.hpp text eol=lf
+*.h   text eol=lf
+*.md  text eol=lf
+*.txt text eol=lf
+*.cmake text eol=lf
+CMakeLists.txt text eol=lf
+.clang-format text eol=lf
+
+# Binary assets.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.ttf binary
+*.exe binary

@@ -1,0 +1,39 @@
+---
+Language: Cpp
+BasedOnStyle: LLVM
+
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 120
+
+# Braces on their own line.
+BreakBeforeBraces: Allman
+
+# Pointers and references bind to the type: Type* Name, Type& Name.
+PointerAlignment: Left
+ReferenceAlignment: Left
+
+# Spaces inside ( ), [ ] and < >.
+SpacesInAngles: Always
+SpaceBeforeParens: ControlStatements
+SpacesInParens: Custom
+SpacesInParensOptions:
+  InConditionalStatements: true
+  InCStyleCasts: false
+  InEmptyParentheses: true
+  Other: true
+SpacesInSquareBrackets: true
+
+# "{ 0 }" style with inner spaces (empty "{}" stays tight).
+Cpp11BracedListStyle: false
+
+IndentCaseLabels: true
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+NamespaceIndentation: All
+
+# Keep include order as written (windows.h must precede commdlg.h, etc.).
+SortIncludes: Never

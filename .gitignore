@@ -1,0 +1,21 @@
+# Build output
+/build/
+/out/
+/cmake-build-*/
+
+# IDE / editor
+/.vs/
+/.vscode/
+/.idea/
+*.user
+
+# Runtime data (saved configurations)
+/configs/
+
+# Binaries / intermediates
+*.exe
+*.pdb
+*.obj
+*.ilk
+*.exp
+*.lib

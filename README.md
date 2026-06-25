@@ -7,11 +7,10 @@
 ![Backend](https://img.shields.io/badge/render-DirectX%2011-107C10)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-`hexed` is a from-scratch reverse-engineering toolkit built on [Dear ImGui](https://github.com/ocornut/imgui) with a DirectX 11 backend. It parses PE files, disassembles x86 / x86-64 with [Capstone](https://www.capstone-engine.org/), reconstructs control-flow graphs, and offers interactive navigation — follow references, list cross-refs, jump anywhere — behind a single, themeable, keyboard-driven UI.
+`hexed` is a from-scratch reverse-engineering toolkit built on [Dear ImGui](https://github.com/ocornut/imgui) with a DirectX 11 backend. It parses PE files, disassembles x86 / x86-64 with [Capstone](https://www.capstone-engine.org/), reconstructs control-flow graphs, and offers interactive navigation — follow references, list cross-refs, jump anywhere — behind a single simple UI.
 
 ## Screenshots
 
-<!-- Drop your PNGs into docs/ and they'll render here. -->
 | Disassembly | Control-flow graph |
 | --- | --- |
 | ![Disassembly](docs/disassembly.png) | ![Graph](docs/graph.png) |
